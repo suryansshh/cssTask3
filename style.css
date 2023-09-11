@@ -1,0 +1,22 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.custom-table thead {
+    background-color: lightblue;
+}
+
+.custom-table th {
+    font-weight: bold;
+    color: black;
+}
+
+.custom-table tbody tr.alternate-row {
+    background-color: grey;
+}
